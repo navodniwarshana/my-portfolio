@@ -157,7 +157,7 @@ h6 {
 
 @media (max-width: 768px) {
     .header {
-        height: 50px;
+        height: 75px;
     }
     
     .header .logo {
@@ -167,6 +167,7 @@ h6 {
     .header .logo h1 {
         padding: 2px 0;
         font-size: 26px;
+        margin-bottom: 10px;
     }
 }
 
@@ -307,7 +308,7 @@ h6 {
     right: 0;
     top: 0;
     z-index: 999;
-    margin: 8px 10px 0 0;
+    margin: 18px 10px 0 0;
     border: 0;
     background: none;
     font-size: 24px;
@@ -331,13 +332,14 @@ h6 {
     .logo {
         width: 100%;
         text-align: center;
+        width: 5px;
     }
 }
 
 #mobile-nav {
     position: fixed;
     top: 0;
-    padding-top: 18px;
+    padding-top: 25px;
     bottom: 0;
     z-index: 998;
     background: rgba(0, 0, 0, 0.9);
@@ -427,14 +429,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .mylogo{
     align-items: center;
-    width: 90px; 
+    width: 50px; 
     height: auto; 
-    border-radius: 0.2rem;
+    border-radius: 1.5rem;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    margin-bottom: 20px;
+
 }
 
 
