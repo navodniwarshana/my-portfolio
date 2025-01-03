@@ -568,14 +568,13 @@
         document.addEventListener('contextmenu', function (e) {
             e.preventDefault();
         });
-    </script>
-        <script>
+ 
     document.addEventListener('keydown', function (e) {
         // Disable F12
         if (e.key === 'F12') {
             e.preventDefault();
         }
-        // Disable Ctrl + Shift + I
+        
         if (e.ctrlKey && e.shiftKey && e.key === 'I') {
             e.preventDefault();
         }
@@ -583,9 +582,8 @@
         if (e.ctrlKey && e.shiftKey && e.key === 'J') {
             e.preventDefault();
         }
-        //
-        </script>
-         <script>
+        
+  
         // Log the URL to the console
         console.log("https://github.com/navodniwarshana");
     </script>
